@@ -33,7 +33,7 @@ window = rg.TurtleWindow()
 
 body = rg.SimpleTurtle('turtle')
 body.pen = rg.Pen('blue',5)
-body.speed = 15
+body.speed = 10
 size = 30
 
 for k in range(10):
