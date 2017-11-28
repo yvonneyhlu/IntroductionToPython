@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #
 #  You should have RUN the PREVIOUS module and READ its code.
 #  (Do so now if you have not already done so.)
@@ -47,9 +47,9 @@ for k in range(10):
 
 star = rg.SimpleTurtle('turtle')
 star.pen = rg.Pen('yellow', 5)
-star.speed = 5
+star.speed = 10
 
-for k in range(5):
+for j in range(20):
     star.right(72)
     star.forward(100)
     star.right(36)
